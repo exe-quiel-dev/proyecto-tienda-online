@@ -1,0 +1,59 @@
+:root{
+    --gold: #f6df77;
+    --blue: #3a43a3;
+    --light-purple: #8a8ce2;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* My-Classes*/
+.bg-destacados-btn{
+    background: var(--light-purple);
+}
+.bg-destacados-btn:hover{
+    background: var(--blue);
+    color: var(--gold);
+}
+.bg-main{
+    background-image: linear-gradient(145deg, white, #e9e9e9);
+}
+#carrito:hover{
+    color: var(--gold);
+}
+.categorias{
+    text-decoration: none;
+    color: black;
+}
+.categorias:hover{
+    color: var(--gold);
+}
+.nav-footer{
+    padding: 0 !important;
+    height: 3rem !important;
+}
+.search-btn{
+    color: white;
+    border: 1px solid #f7d330;
+    background: transparent;
+}
+.search-btn:hover{
+    background-color: var(--gold);
+}
+.text-price{
+    color: #00a650;
+}
+
+/* BS-CLASSES */
+.active{
+    color: white !important;
+}
+.bg-body-tertiary{
+    background-color: var(--blue) !important;
+}
+.carousel-inner{
+    height: 40vh;
+}
+.nav-link:hover{
+    color: var(--gold);
+}
