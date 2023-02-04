@@ -4,7 +4,7 @@ export function mostrarCategorias() {
     categorias.forEach( cat => {
         const {categoria, icono} = cat;
         const containerCategorias = document.querySelector('.contenedor-categorias');
-        containerCategorias.classList.add('d-flex', 'justify-content-center', 'pt-5');
+        containerCategorias.classList.add('container', 'd-flex', 'flex-wrap', 'justify-content-center', 'pt-5');
 
         const divCategorias = document.createElement('DIV');
         divCategorias.classList.add('mx-3');

@@ -6,6 +6,9 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
+a{
+    color: black;
+}
 
 /* My-Classes*/
 .bg-destacados-btn{
