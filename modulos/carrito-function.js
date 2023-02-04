@@ -16,7 +16,7 @@ export function mostrarCarritoHTML(productos) {
         <div class="container-fluid d-flex">
             <p class="px-5 fw-semibold">Producto:<span class="fw-normal"> ${nombre}</span></p>  
             <p class="px-5 fw-semibold">Cantidad:<span class="fw-normal"> ${cantidad}</span></p>  
-            <p class="px-5 fw-semibold">Precio:<span class="fw-normal"> ${precio}</span></p>  
+            <p class="px-5 fw-semibold">Precio: <span class="fw-normal"> $${precio}</span></p>  
         </div>
         `;
         
